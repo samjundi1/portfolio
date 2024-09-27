@@ -1,10 +1,10 @@
 import {Route, Routes} from 'react-router-dom';
 import Welcome from './src/components/Welcome';
-import Projects from './src/components/Projects';
-import Services from './src/components/Services';
+import Projects from './src/components/sections/Projects/Projects';
+import Services from './src/components/sections/Services/Services';
 import ContactMe from './src/components/ContactMe';
 import Layout from './src/components/Layout';
-import AboutMe from './src/components/sections/AboutMe/AboutMe';
+import AboutMe from './src/components/sections/Aboutme/AboutMe';
 
 export default function MainRouter  ()
     {
