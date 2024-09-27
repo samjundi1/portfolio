@@ -4,7 +4,7 @@ import Projects from './src/components/Projects';
 import Services from './src/components/Services';
 import ContactMe from './src/components/ContactMe';
 import Layout from './src/components/Layout';
-import AboutMe from './src/components/AboutMe';
+import AboutMe from './src/components/sections/AboutMe/AboutMe';
 
 export default function MainRouter  ()
     {
