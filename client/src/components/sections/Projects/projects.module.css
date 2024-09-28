@@ -1,4 +1,4 @@
-.projects-page{
+.projectsPage{
     padding: 2rem;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -9,13 +9,13 @@
     font-size: 2.5rem;
   }
   
-  .projects-container {
+  .projectsContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
   
-  .project-card {
+  .projectCard {
     width: 300px;
     margin: 20px;
     border: 1px solid #ddd;
@@ -25,26 +25,26 @@
     transition: transform 0.3s;
   }
   
-  .project-card:hover {
+  .projectCard:hover {
     transform: scale(1.05);
   }
   
-  .project-image {
+  .projectImage {
     width: 100%;
     height: 200px;
     object-fit: cover;
   }
   
-  .project-info {
+  .projectInfo {
     padding: 15px;
   }
   
-  .project-info h2 {
+  .projectInfo h2 {
     margin-top: 0;
     font-size: 1.5rem;
   }
   
-  .project-info p {
+  .projectInfo p {
     margin: 0.5rem 0;
   }
   

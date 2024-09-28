@@ -1,6 +1,4 @@
-// Services.jsx
-import service1Image from '../../../assets/service1.jpg'; // Example image import
-
+import service1Image from '../../../assets/service1.jpg';  
 import service2Image from '../../../assets/service2.jpg';
 import service3Image from '../../../assets/service3.jpg';
 
@@ -16,8 +14,8 @@ export const servicesData = [
     image: service2Image,
   },
   {
-    title: 'General Programming',
-    description: 'Providing programming services in various languages for diverse applications.',
+    title: 'Data Analysis',
+    description: 'Delivering insights through data processing, visualization, and statistical analysis to help drive informed decision-making.',    
     image: service3Image,
   },
 ];

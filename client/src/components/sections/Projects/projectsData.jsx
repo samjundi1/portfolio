@@ -21,6 +21,7 @@ export const projectsData = [
     id: 3,
     title: 'Celebreities and Fans Platform ',
     image: project3Image,
-    description: 'Endoresed by your favorite celebrety'
+    description: 'Endoresed by your favorite celebrety',
+    role: 'Product Manager',
   },
 ];

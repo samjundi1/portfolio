@@ -9,7 +9,7 @@ export default function ContactMe() {
 
   return (
     <section id="contact" className={styles.container}>
-      <h1 className="sectionTitle">Contact</h1>
+      <h1 className="sectionTitle">Contact Me</h1>
       <form onSubmit={handleSubmit}>
         <div className="formGroup">
           <label htmlFor="name" hidden>
