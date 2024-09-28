@@ -1,3 +1,11 @@
+/*
+File Name: projectsData.jsx
+Student Name: Samer Aljundi
+Student ID: 301471598
+Created on Date: 25 SEP 2024
+Last update Date: 29 SEP 2024
+*/
+
 import project1Image from '../../../assets/project1.jpg'; // Example image import
 import project2Image from '../../../assets/project2.jpg';
 import project3Image from '../../../assets/project3.png';

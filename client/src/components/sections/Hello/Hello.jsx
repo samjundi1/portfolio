@@ -1,4 +1,12 @@
 // Hello.jsx
+/*
+File Name: Hello.jsx
+Student Name: Samer Aljundi
+Student ID: 301471598
+Created on Date: 25 SEP 2024
+Last update Date: 29 SEP 2024
+*/
+
 import styles from './hello.module.css';
 export default function Hello ()
 {
