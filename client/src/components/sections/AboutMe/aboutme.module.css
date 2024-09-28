@@ -2,15 +2,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   text-align: center;
   height: 100dvh;
   min-height: 500px;
 
-  .hero {
+  .myphoto {
     max-width: 200px;
+    border-radius: 50%; 
+    margin-bottom: 20px; 
   }
-
+  
   span {
     display: flex;
     gap: 25px;
@@ -30,18 +33,18 @@
     align-self: center;
   }
 
-  button {
-    background-color: var(--btn-color);
-    color: var(--btn-text-color);
-    border: none;
-    border-radius: 20px;
-    width: 126px;
-    height: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
-  }
+button {
+  background-color: #00aeff;
+  color: #ffffff; 
+  border: none;
+  border-radius: 20px;
+  width: 126px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+}
 
   button:hover {
     transform: scale(1.05);
@@ -68,13 +71,16 @@
 }
 
 .description {
-  max-width: 24ch;
+  /*max-width: 24ch;*/
+  max-width: 400px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin: 10px 0; 
+
 }
 
 @media (width >= 800px) {
@@ -83,7 +89,7 @@
     align-items: center;
     justify-content: space-evenly;
 
-    .hero {
+    .aboutme {
       max-width: 350px;
       width: 350px;
     }
@@ -92,7 +98,7 @@
 
 @media (width >= 1400px) {
   .container {
-    .hero {
+    .aboutme {
       max-width: 400px;
       width: 400px;
     }
