@@ -1,3 +1,11 @@
+/*
+File Name: ServiceData.jsx
+Student Name: Samer Aljundi
+Student ID: 301471598
+Created on Date: 25 SEP 2024
+Last update Date: 29 SEP 2024
+*/
+
 import service1Image from '../../../assets/service1.jpg';  
 import service2Image from '../../../assets/service2.jpg';
 import service3Image from '../../../assets/service3.jpg';

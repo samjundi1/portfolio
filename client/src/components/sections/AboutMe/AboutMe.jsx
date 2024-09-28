@@ -1,3 +1,11 @@
+
+/*
+File Name: AboutMe.jsx
+Student Name: Samer Aljundi
+Student ID: 301471598
+Created on Date: 25 SEP 2024
+Last update Date: 29 SEP 2024
+*/
 import profileImage from '../../../assets/image.jpeg';
 import resume from '../../../assets/resume.pdf';
 import styles from './aboutme.module.css';
