@@ -4,11 +4,17 @@ File Name: ContactMe.jsx
 Student Name: Samer Aljundi
 Student ID: 301471598
 Created on Date: 25 SEP 2024
-Last update Date: 29 SEP 2024
+Last update Date: 1 OCT 2024
 */
+import React, { useState } from 'react';
+import styles from './contactme.module.css';
 
-import  styles from './contactme.module.css';
 export default function ContactMe() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
   const handleSubmit = (e) => {
     e.preventDefault();
     //alert('Form submitted successfully!'); 
