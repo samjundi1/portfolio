@@ -11,7 +11,7 @@ import Projects from './src/components/sections/Projects/Projects';
 import Services from './src/components/sections/Services/Services';
 import ContactMe from './src/components/sections/ContactMe/ContactMe';
 import Layout from './src/components/sections/Layout/Layout';
-import AboutMe from './src/components/sections/Aboutme/AboutMe';
+import AboutMe from './src/components/sections/AboutMe/AboutMe';
 import Hello from './src/components/sections/Hello/Hello';
 
 export default function MainRouter  ()
